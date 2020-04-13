@@ -6,6 +6,6 @@
 
 function filter_list(l) {
     // Return a new array with the strings filtered out
-    const newArr = []
+    return l.filter(e => Number.isInteger(e));
     
   }
